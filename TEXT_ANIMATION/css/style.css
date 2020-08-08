@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+}
+
+header{
+
+	width:100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('../images/bg.jpg');
+	background-size: 100% 100%;
+}
+
+
+
+nav{
+	width: 100%;
+	height: 15vh;
+	background:rgb(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.logo{
+
+width: 25%;
+text-align:center;
+}
+
+.menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.menu a{
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	width: 25%;
+}
+.menu a:first-child{
+	color: #00b894;
+}
+
+main{
+	
+	height:85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
+
+section{
+	padding-top: 35px;
+}
+section h3{
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px black;
+	text-align: center;
+
+}
+
+section h1{
+margin: 30px 0 20px 0;
+text-align: center;
+font-size: 55px;
+font-weight: 700;
+text-shadow: 2px 1px 5px black;
+
+}
+
+section p{
+
+font-size: 25px;
+word-spacing: 2px;
+margin-bottom: 25px;
+text-shadow: 1px 1px 1px black;
+text-align: center;
+
+}
+
+
+section a{
+	text-decoration: none;
+	outline: none;
+	letter-spacing: 1px;
+	padding: 12px 30px;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 4px;
+    text-transform: uppercase;
+    margin-left: 75px;
+    transition: all .5s ease;
+}
+
+
+.btn1{
+	background:#fff;
+	color: #000;
+	
+
+}
+.btn1:hover{
+	background: #00b894;
+	color: white;
+}
+
+.btn2{
+	background:#00b894;
+	color: #fff;
+     margin-right:150px;
+}
+
+.btn2:hover{
+	background: #00b894;
+	color: white;
+	
+}
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changetext{
+	0%{content:' OUR SAVIOR'}
+	20%{content: 'OUR HOPE';}
+	35%{content: 'OUR HEALER';}
+	60%{content: 'OUR PASSOVER';}
+	80%{content: 'OUR REDEEMER';}
+	100%{content: 'OUR ADVOCATE';}
+}
