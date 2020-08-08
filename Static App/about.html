@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<style>
+		
+		*{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
+		}
+		
+		body{
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+		}
+			
+		.imagesec{
+		width: 100%;
+		}
+		.imagesec  img{
+		width: 100%;
+		padding: 10px;
+		border-radius: 50%;
+		box-shadow: 0 0 10px #999999;
+		}
+		
+		#aboutus h2{
+		margin-bottom: 25px;
+		}
+		.navbar:before{
+		content: "";
+		position: absolute;
+		top: 0%;
+		bottom: 0%;
+		left: 0%;
+		right:0%;
+		opacity: .3;
+		z-index: -1;
+		background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+		}
+		.nav-item a{
+		color:#fff!important;
+		font-weight: bold;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="header" id="topheader">
+			
+			<nav class="navbar navbar-expand-lg fixed-top">
+				<div class="container text-uppercase p-2">
+					
+					<a class="navbar-brand text-white font-weight-bold animated infinite animated infinite heartBeat" href="index.html">WEBDEVELOPER</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</h5> <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">ABOUT US</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="#">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">TESTOMINES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT US</a>
+							</li>
+							
+						</ul>
+						
+					</div>
+				</div>
+			</nav>
+			<section id="aboutus">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-7">
+							<h2 class="text-center font-weight-bold text-uppercase text-danger
+							"><span class="type"></span> </h2>
+							<p class="text-center font-weight-bold text-capitalize  "> Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a first-century BCE text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.  Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a first-century BCE text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.</p>
+						</div>
+						<div class="col-sm-5">
+							<div class="imagesec">
+								<img src="images/sarath.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			 <script src="typed.js"></script>
+              <script>
+              var typed = new Typed(".type", {
+              strings: [
+              'ABOUT ME',
+              'SARATH SASIDHARAN',
+              'DEVELOPER',
+              'FREELANCER',
+             
+              ],
+              typeSpeed: 60,
+              backSpeed: 60,
+              loop:true
+              });
+          </script>
+		</body>
+	</html>
